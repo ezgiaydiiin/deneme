@@ -21,8 +21,6 @@ class ContainerSizedBoxLearn extends StatelessWidget {
           Container(
             width: 50,
             height: 50,
-            //color: ProjectColors.welcomeColor,
-
             padding: const EdgeInsets.all(4.0),
             margin: const EdgeInsets.all(4.0),
             decoration: BoxDecoration(

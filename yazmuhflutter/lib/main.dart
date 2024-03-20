@@ -1,5 +1,6 @@
 //import 'package:english_words/english_words.dart';
 import 'package:flutter/material.dart';
+import 'package:yazmuhflutter/101/scaffold_learn.dart';
 //import 'package:provider/provider.dart';
 
 import '101/container_sized_box_learn.dart';
@@ -14,8 +15,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      darkTheme: ThemeData.dark(),
       title: 'Ebrarin uygulamasi',
-      home: ContainerSizedBoxLearn(),
+      home: ScaffoldLearn(),
     );
   }
 }
