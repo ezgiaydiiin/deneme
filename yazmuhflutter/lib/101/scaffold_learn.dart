@@ -22,10 +22,14 @@ class ScaffoldLearn extends StatelessWidget {
             borderRadius: BorderRadius.circular(20.0),
             side: BorderSide(color: Colors.white)),
       ),
-      bottomNavigationBar: BottomNavigationBar(items: [
-        BottomNavigationBarItem(icon: Icon(Icons.abc_outlined), label: 'a'),
-        BottomNavigationBarItem(icon: Icon(Icons.abc_outlined), label: 'b'),
-      ]),
+      bottomNavigationBar: Container(
+        // width: 200.0,
+        // height: 15.0,
+        child: BottomNavigationBar(items: [
+          BottomNavigationBarItem(icon: Icon(Icons.abc_outlined), label: 'a'),
+          BottomNavigationBarItem(icon: Icon(Icons.abc_outlined), label: 'b'),
+        ]),
+      ),
     );
   }
 }
