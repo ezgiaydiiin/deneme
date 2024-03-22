@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       darkTheme: ThemeData.dark(),
-      title: 'ebrar begum sipal',
+      title: 'ebrar begum ',
       home: const ButtonLearn(),
     );
   }
